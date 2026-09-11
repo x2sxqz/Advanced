@@ -10,7 +10,7 @@ local PlayerGui = LocalPlayer:WaitForChild("PlayerGui")
 local Lighting = game:GetService("Lighting")
 local CoreGui = game:GetService("CoreGui")
 
-local GETKEY_URL = "https://reaper-keysystem.vercel.app/"
+local GETKEY_URL = "https://v2-project-ochre.vercel.app"
 local DATABASE_URL = "https://keysystem-reaper-default-rtdb.asia-southeast1.firebasedatabase.app/keys/"
 local SAVE_FILE_NAME = "reaper_saved_key.txt"
 
@@ -390,7 +390,7 @@ local function Build()
 
 	local titleText = Instance.new("TextLabel")
 	titleText.Size = UDim2.new(1, 0, 1, 0)
-	titleText.Text = "Reaper Hub"
+	titleText.Text = "REAPER HUB"
 	titleText.TextColor3 = Color3.new(1, 1, 1)
 	titleText.TextTransparency = 0.7
 	titleText.TextSize = 10
@@ -428,7 +428,7 @@ local function Build()
 	local mainTitle = Instance.new("TextLabel")
 	mainTitle.Size = UDim2.new(1, 0, 0, 22)
 	mainTitle.Position = UDim2.new(0, 0, 0, 90)
-	mainTitle.Text = "Reaper Hub"
+	mainTitle.Text = "REAPER HUB"
 	mainTitle.TextColor3 = Color3.new(1, 1, 1)
 	mainTitle.TextSize = 18
 	mainTitle.Font = Enum.Font.GothamBold
@@ -552,7 +552,7 @@ local function Build()
 	local getKey = Instance.new("TextButton")
 	getKey.Size = UDim2.new(0.5, -4, 1, 0)
 	getKey.BackgroundColor3 = Color3.fromRGB(30, 41, 59)
-	getKey.Text = "Get Key"
+	getKey.Text = "Buy Key"
 	getKey.TextColor3 = Color3.new(1, 1, 1)
 	getKey.Font = Enum.Font.GothamBold
 	getKey.TextSize = 13
